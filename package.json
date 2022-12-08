@@ -1,0 +1,23 @@
+{
+  "name": "lapanthereagenceweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studentOCDBX/LaPanthereAgenceWeb.git"
+  },
+  "author": "Nazaire DARBOUX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studentOCDBX/LaPanthereAgenceWeb/issues"
+  },
+  "homepage": "https://github.com/studentOCDBX/LaPanthereAgenceWeb#readme",
+  "devDependencies": {
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0"
+  }
+}
