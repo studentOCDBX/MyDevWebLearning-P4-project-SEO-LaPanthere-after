@@ -26,12 +26,14 @@ Vous trouverez [le brief complet du projet](https://openclassrooms.com/fr/paths/
 
 ### <ins> Outils de test d'accessibilité</ins>
 
-- Wave
+- Wave.
 
-- Lighthouse
+- Lighthouse.
 
-- Axe Devtools
+- Axe Devtools.
   <br>
+- Analyseur de Contraste des Couleurs(CCA).
+- NVDA(Lecteur d'Ecran)(https://www.nvaccess.org/download/).
 
 ### <ins> Tester le projet </ins>
 
