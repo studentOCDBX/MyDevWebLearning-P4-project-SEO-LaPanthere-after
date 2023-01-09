@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "styleMin": "postcss style.css -u cssnano -o ./CSS/style.min.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/studentOCDBX/LaPanthereAgenceWeb#readme",
   "devDependencies": {
+    "cssnano": "^5.1.14",
     "postcss": "^8.4.19",
     "postcss-cli": "^10.1.0"
   }
