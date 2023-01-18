@@ -653,7 +653,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #373737 !important;
 }
 
 .container {
@@ -678,9 +678,6 @@ a {
   margin: auto auto auto auto;
 }
 
-p {
-  font-size: 11px;
-}
 
 .tight-width-whitespace {
   max-width: 600px;
@@ -703,7 +700,7 @@ p {
 
 .social {
   max-width: 400px;
-  margin: auto auto auto auto;
+  margin: 16px auto;
 }
 
 h2 {
@@ -777,17 +774,17 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #373737 !important;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  color: #373737 !important;
 }
 
 .ltc-white {
@@ -820,7 +817,7 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/imgcomp/agence-la-panthere.jpg");
+  background-image: url("img/Imgcomp/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
@@ -850,13 +847,13 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -874,21 +871,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
-  .bloc-group,
-  .bloc-group .bloc {
-    display: block;
-    width: 100%;
-  }
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
 }
 
 @media (max-width: 767px) {
